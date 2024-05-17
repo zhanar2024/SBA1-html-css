@@ -1,0 +1,132 @@
+/* External Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/simpleview/image/upload/v1455055221/clients/syracuse/_MG_5743_3bc965a8-543e-4511-bdb6-2599ef8c760c.jpg");
+  height: 50vh;
+}
+
+header {
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/*Styling NavBar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: darkorange;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+/*Styling dropdown menu*/
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  z-index: 1;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/*styling sign-up form*/
+
+.form-container {
+  text-align: center;
+}
+
+.form-container input[type="email"] {
+  padding: 5px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.form-container input[type="sumbit"] {
+  padding: 5px;
+  background-color: gray;
+  color: white;
+  border: black;
+  cursor: pointer;
+}
+
+/*styling questionnaire form*/
+.questionnaire {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: darkorange;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Internal Styles */
+section h2 {
+  color: #333;
+}
+
+/* Inline Styles */
+h1 {
+  text-transform: uppercase;
+}
